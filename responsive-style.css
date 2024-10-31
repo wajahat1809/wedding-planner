@@ -1,0 +1,176 @@
+@media (max-width: 1200px) {
+    /* custom css */
+h1{
+    font-size: 2.1875rem;
+}
+h2{
+    font-size: 1.1875rem;
+}
+h3{
+    font-size: 1.25rem;
+}
+h2{
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+p,a{
+    font-size: 0.875;
+    line-height: 1.2rem;
+}
+.main-btn{
+    padding: .5rem .9375rem;
+}
+.wrapper{
+    padding-top: 4.25rem;
+    padding-bottom: 3.25rem;
+}
+.navigation-wrap .navbar-brand img{
+    width: 6.25rem;
+}
+.navigation-wrap .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 0.875rem;
+
+}
+/* service section */
+.service-section .service-cards{
+    margin-top: 4.4286rem;
+}
+.service-section .card{
+    padding: 3.4375rem 0 0;
+    margin-bottom: 1.25rem;  
+}
+.service-section .card img{
+    width: 6.25rem;
+    height: 6.25rem;
+}
+}
+
+@media ( max-width: 992px) {
+    /* custom css */
+    p,a{
+        font-size: 0.75rem;
+    }
+    /* navbar */
+    .header-top{
+        display: none;
+    }
+    .navbar .navbar-toggler{
+        color: var(--text-white);
+    }
+    .navbar-btn{
+        margin: .625rem 0;
+    }
+    .navigation-wrap{
+        text-align: center;
+        background:transparent;
+    }
+    
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+    }
+    /* bannner design */
+    .top-banner{
+        padding: 6.375rem 0 4.375rem;
+
+    }
+    /* about us */
+    .about-section{
+        text-align: center;
+    }
+    .about-section span::after{
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    /* feature section */
+    .feature-section .card .feature-p{
+         font-size: 1.125rem;
+
+    }
+    /* newsletter section */
+    .newsletter .form-group input {
+        height: 3.2857rem;
+
+    }
+}
+@media (max-width: 767px) {
+    /* custom css*/
+    h1{
+        font-size: 1.5625rem;
+    }
+    h2{
+        font-size: 1.25rem;
+    }
+    h3{
+        font-size: 1.125rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    span{
+        font-size: 0.875rem;
+    }
+    .main-btn{
+        font-size: 0.75rem;
+        line-height: 1rem;
+        padding: 0.5rem 0.625rem;
+    }
+    .wrapper{
+        padding-top: 3.25rem;
+        padding-bottom: 2.25rem;
+    }
+    /* service section */
+    .service-section .card{
+        margin-bottom: 2.5rem;
+    }
+     /* feature section */
+     .feature-section .card .feature-p{
+        font-size: 0.875rem;
+        
+   }
+   /* footer */
+   .footer .footer-link,
+   .footer a i{
+    padding: 0.3rem 0.7rem;
+   }
+   .footer a{
+    padding: 0 0.5rem;
+    
+   }
+}
+
+@media (max-width: 1200px) {
+    .background-image {
+      background-size: cover;
+      background-position: center;
+    }
+    /* Other custom CSS */
+  }
+  
+  @media (max-width: 992px) {
+    .background-image {
+      background-size: cover;
+      background-position: center;
+    }
+    /* Other custom CSS */
+  }
+  
+  @media (max-width: 770px) {
+    .background-image {
+      background-size: cover;
+      background-position: center;
+    }
+    .navbar-collapse{
+        background:rgb(199, 199, 199);
+    }
+    /* Other custom CSS */
+  }
+  @media (max-width: 1200px), (max-width: 992px), (max-width: 767px), (max-width: 320px) {
+    .background-image {
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: 100vh;
+    }}
+
+ 
